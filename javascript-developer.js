@@ -14,3 +14,22 @@ function helloDeveloper(name) {
 }
 
 console.log(helloDeveloper("Bruno"));
+
+const numero = 5;
+const numeroEmTexto = "10";
+console.log(numero === numeroEmTexto);
+
+if (numero >= 10) {
+  console.log("Sucesso demais!");
+}
+
+let nomeDoAluno = "Renan Johannsen de Paula";
+console.log(nomeDoAluno);
+nomeDoAluno = "Vitor Johansen Guerra";
+console.log(nomeDoAluno);
+
+if (numero % 2 === 0) {
+  console.log("Número par");
+} else {
+  console.log("Número ímpar");
+}
